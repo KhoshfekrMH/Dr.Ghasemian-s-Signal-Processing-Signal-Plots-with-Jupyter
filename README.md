@@ -16,6 +16,20 @@ This project contains Jupyter notebooks for plotting various signals commonly us
   pip install matplotlib
   ```
 
+### Design Hints 🎨
+
+- I used red color for signals by putting 'r' in plot function so you can remove or change this value:
+
+```python
+plt.stem(n, y, 'r', basefmt=' ')
+```
+
+- If you don't like black background in signal plots you can remove this code in all .ipynb files
+
+```python
+plt.style.use('dark_background')
+```
+
 ## Contributing 👍
 
 Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request.
