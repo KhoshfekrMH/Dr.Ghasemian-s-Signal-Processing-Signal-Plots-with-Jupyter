@@ -24,10 +24,10 @@ This project contains Jupyter notebooks for plotting various signals commonly us
 plt.stem(n, y, 'r', basefmt=' ')
 ```
 
-- If you don't like black background in signal plots you can remove this code in all .ipynb files
+- If you do not like black background in signal plots you can remove this code in all .ipynb files
 
 ```python
-plt.style.use('dark_background')
+plt.style.use("dark_background")
 ```
 
 ## Contributing 👍
