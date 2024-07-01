@@ -16,6 +16,8 @@ This project contains Jupyter notebooks for plotting various signals commonly us
   pip install matplotlib
   ```
 
+- for simulink please use **matlab** to open **slx** files
+
 ### Design Hints 🎨
 
 - I used red color for signals by putting 'r' in plot function so you can remove or change this value:
